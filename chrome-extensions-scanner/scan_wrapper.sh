@@ -14,7 +14,7 @@ ZIP_OUTPUT="/tmp/found_extensions.zip"
 rm -f "$ZIP_OUTPUT"
 
 # 1) Download the original scan script
-curl -sL https://raw.githubusercontent.com/CyberhavenInc/chrome-extension-tools/main/chrome-extensions-scanner/scan.sh -o scan.sh
+curl -sL https://raw.githubusercontent.com/2357gi/chrome-extension-tools/main/chrome-extensions-scanner/scan.sh -o scan.sh
 chmod +x scan.sh
 
 # 2) Run your original scan script **quietly**
